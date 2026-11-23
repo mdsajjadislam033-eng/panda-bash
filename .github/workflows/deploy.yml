@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Dependencies
         working-directory: project
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build Game
         working-directory: project
